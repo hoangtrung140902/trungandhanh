@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+
+header{
+
+    height: 100px;
+    background: #CCFFCC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.text-center{
+   margin-right: 45% ;
+}
+
+
+.left-align {
+     text-align: left;
+}
+h1 {
+    font-size: 30px;
+    color: white; 
+    
+   
+}
+nav{
+    
+    height: 40px;
+    background: #FFFF99;
+}
+nav .menu ul{
+    list-style: none;
+}
+nav .menu ul li{
+   float: left;
+   line-height: 40px;
+   padding: 0 89px;
+}
+nav .menu ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    font-size: 15px;
+}
+nav .menu ul li a:hover{
+   text-decoration: underline; 
+}
+.active{
+    text-decoration: underline;
+}
+
+.valuehigh{
+    padding: 10px;
+    margin: 5px;    
+    max-width: 700px;  
+    display: grid; 
+    grid-gap: 1rem; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.valuehigh.value{
+    background-color: white; 
+    box-shadow: 0px 0px 10px 1px rgba(10,10,10,.5); 
+    border: 1px solid #0c6980; 
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+ 
+}
+.valuehigh.value.box{
+    background-color: #44800c; 
+    color: white; 
+    border-bottom-right-radius: 0px; 
+    border-bottom-left-radius: 0px; 
+    border-top-right-radius: 12px; 
+    border-top-left-radius: 12px;
+    padding: 20px;
+}
+    
+.chart-container {
+    align-items: center;
+}
+
+
+    
+#chart {
+        display: block;
+        margin: 0 auto;
+}    
+
+
+.card {
+    background-color: white; 
+    box-shadow: 0px 0px 10px 1px rgba(10,10,10,.5); 
+    border: 1px solid #0c6980; 
+    border-radius: 12px;
+    text-align: center;
+    padding: 40px;
+    
+}
+.card.header {
+    background-color: #44800c; 
+    color: white; 
+    border-bottom-right-radius: 0px; 
+    border-bottom-left-radius: 0px; 
+    border-top-right-radius: 12px; 
+    border-top-left-radius: 12px;
+    padding: 30px;
+}
+body{
+    margin: 0;
+}
+footer{
+    height: 60px;
+    background: #d7ccff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+}
